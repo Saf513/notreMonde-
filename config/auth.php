@@ -70,7 +70,10 @@ return [
         //     'table' => 'users',
         // ],
     ],
-
+'api' => [
+    'driver' => 'sanctum',
+    'provider' => 'users',
+],
     /*
     |--------------------------------------------------------------------------
     | Resetting Passwords
